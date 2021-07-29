@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>The Healing Blossom</title>
+
+        <style>
+            .navbar {
+                font-size: 25px;
+                transition-duration: 0s;
+                transition-timing-function: linear;
+                color: white;
+            }
+
+            .navbar:hover {
+                text-shadow: 0px 0px 7px rgb(255, 255, 255);
+            }
+
+            .main_text {
+                margin-top: 350px;
+                background-color: rgba(98, 175, 74);
+                padding: 20px;
+                font-size: 20px;
+                text-align: center;
+                color: white;
+                width: max-content;
+                position:relative;
+                top: 0px;
+                left:50%;
+                transform:translateX(-50%);
+                border-style: hidden;
+                border-radius: 20px;
+                transition-timing-function: linear;
+                transition-duration: 0.2s;
+            }
+
+            .main_text:hover {
+                top: -30px;
+                padding: 50px;
+                opacity: 0;
+            }
+
+            .links {
+                font-size: 20px;
+                transition-duration: 0s;
+                transition-timing-function: linear;
+                color: white;
+            }
+
+            .links:hover {
+                text-shadow: 0px 0px 7px rgb(255, 255, 255);
+            }
+
+            .text_boxes {
+                font-size: 16px;
+                font-family: Courier New;
+                padding: 5px;
+                border-style: hidden;
+                border-radius: 10px;
+                width: 230px;
+            }
+
+            .submit {
+                background-color: white;
+                font-family: Courier New;
+                border-radius: 10px;
+                border-style: hidden;
+                padding: 5px;
+                font-size: 20px;
+                transition-duration: 0s;
+                transition-timing-function: linear;
+            }
+
+            .submit:hover {
+                background-color: rgb(72, 131, 55);
+                color: white;
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+
+        </style>
+
+    </head>
+
+    <body style="background-color: rgb(98, 175, 74);">
+  
+        <nav style="text-align: right; padding: 25px; background-color: rgb(98, 175, 74); font-family: Courier New; position: fixed; width: 100%; left: 0px; top: 0px; z-index: 5;">
+            
+            <img src="http://u.filein.io/-3t1r1TQle.png" width="100px" style="padding-right: 350px;">
+            <a style="color: white; font-family: Lucida Handwriting; font-size: 30px; padding-right: 200px;">Healing Blossom</a>
+            <a href="#home" style="text-decoration: none;" class="navbar">Home</a>
+            <a href="#effects" style="padding-left: 40px; text-decoration: none;" class="navbar">Effects</a>
+            <a href="#prices" style="padding-left: 40px; padding-right: 55px; text-decoration: none;" class="navbar">Pricing</a>
+
+        </nav>
+
+        <img src="http://u.filein.io/F8kA0WmEgk.jpg" width="100%" style="position: absolute; left: 0px; top: -290px; z-index: -1;" id="home">
+        <p class="main_text">Welcome. Here in the Healing Blossom we sell many different types of medicinal herbs, some ordinary and others with special properties.</p>
+
+        <p id="effects" style="padding-bottom: 45px; position: absolute; margin-top: 260px; opacity: 0;">Text</p>
+
+        <div style=" margin-top: 330px; background-color: white; padding: 30px; font-family: Lucida Sans Unicode; width: 96%;">
+
+            <p style="text-align: center; font-size: 30px;">Effects</p>
+            <img src="http://u.filein.io/dPHWHZrg7D.jpg" width="300px" height="auto" style="position:relative; top: 0px; left:25%; transform:translateX(-50%);">
+            <img src="http://u.filein.io/A3XzhZ5Ffm.jpg" width="450px" height="auto" style="position:relative; top: 0px; left:56%; transform:translateX(-50%);">
+            
+            <div style="width: 500px; margin-left: 100px;">
+                <p>This is a very special tree that many know as a Cherry Blossom. This tree can physically heal anyone who eats one of its petals. It can heal bruises or even broken bones.</p>
+            </div>
+
+            <div style="width: 500px; margin-left: 860px; margin-top: -90px;">
+                <p>This tree, most commonly known as as the Rainbow Eucalyptus or Rainbow Gum has the special ablities of getting rid of any bad memories or nightmares. It can clear your mind and keep you happy.</p>
+            </div>
+
+        </div>
+
+        <p id="prices" style="position: absolute; margin-top: -30px; opacity: 0;">Text</p>
+
+        <div style=" margin-top: 10px; background-color: white; padding: 30px; font-family: Lucida Sans Unicode; width: 96%;">
+
+            <p style="text-align: center; font-size: 30px;">Pricing</p>
+            <div style="width: 500px; margin-left: 200px;">
+                <p>Cherry Blossom Trees : $110.00</p>
+                <p>Taxes : $2.99</p>
+                <p>Total : $112.99</p>
+            </div>
+
+            <div style="width: 500px; margin-left: 950px; margin-top: -122px;">
+                <p>Rainbow Eucalyptus Trees : $180.00</p>
+                <p>Taxes : $4.99</p>
+                <p>Total : $184.99</p>
+            </div>
+
+        </div>
+        
+        <footer style="color: white; font-family: Courier New; font-size: 25px; padding-top: 30px;">
+
+            <form style="text-align: right; margin-right: 20px;">
+                <label>First & Last Name</label>    <br><br>
+                <input type="text" class="text_boxes">     <br><br>
+                <label style="padding-right: 170px;">Email</label>   <br><br>
+                <input type="text" class="text_boxes">     <br><br>
+                <input type="submit"  class="submit">
+            </form>
+
+            <div style="margin-top: -275px;">
+                <p style="padding-left: 20px;">Contact us at:</p>
+                <p class="links" style="padding-left: 40px;">healing.blossom@gmail.com</p>
+            </div>
+
+            <div style="margin-top: -60px; margin-left: 500px; width: 600px; font-size: 20px; padding-bottom: 200px;">
+                <p>To sign up for any updates or new product, please fill out this form to be added into our contacts.</p>
+            </div>
+
+            <div  style="padding-left: 20px;">
+                <p style="margin-top: -180px; text-decoration: underline;">Reviews</p>
+                <p style="font-size: 20px;">"Stunning effects and even more astounding results" - <i>The Nature Conservancy</i></p>
+                <p style="font-size: 20px;">"Wonderful website, extremely reliable, and amazing quality" - <i>The Enviromental Global Alliance</i></p>
+                <p style="font-size: 20px;">"Great service and good product" - Evaline Stark, advocate of the <i>Mother Earth Agency</i></p>
+                <p style="font-size: 20px;">"Definitely the best medicne out there. Nothing is fater that this" - Eleanor Willson</p>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
